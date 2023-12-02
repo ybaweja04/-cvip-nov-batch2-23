@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "helvetica";
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+.header {
+    background-image: url("netflix.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8)),
+        url("netflix.png");
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-right: 800px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.header button {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+#signin:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg,
+            rgba(212, 0, 0, 0.728),
+            rgb(129, 8, 8))
+}
+#language-btn {
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #797979;
+    padding: 7px 10px;
+}
+
+.sec {
+    position: relative;
+    padding: 10px;
+    background: white;
+}
+
+#text {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#stream {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+#watch {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 220px;
+}
+
+#ready {
+    color: aliceblue;
+    font-weight: 350;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+#email {
+    border-color: #fff;
+    position: relative;
+    left: 450px;
+    top: 280px;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    flex: 1;
+    margin-left: 20px;
+    background: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8));
+    opacity: 80%;
+    color: #fff;
+    padding: 20px;
+}
+
+#btn {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background: rgba(229, 9, 20, 1);
+    color: white;
+    font-size: 1.7em;
+    position: relative;
+    left: 460px;
+    top: 284px;
+}
+
+#btn:hover {
+    background: linear-gradient(0deg,
+            rgba(212, 0, 0, 0.728),
+            rgb(129, 8, 8))
+}
+
+.enjoy {
+    padding: 50px 10%;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.enjoyimg {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+
+.enjoyimg img {
+    display: block;
+    width: 120%;
+    margin: auto;
+}
+
+.enjoytext {
+    flex-basis: 50%;
+    margin-bottom: 160px;
+    line-height: 1.5;
+}
+
+.enjoytext h6 {
+    font-weight: 100;
+}
+
+.enjoytext h2 {
+    font-size: 50px;
+}
+
+.download {
+    padding: 50px 10%;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.downloadimg {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+
+.downloadimg img {
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+.downloadtext {
+    flex-basis: 50%;
+    margin-bottom: 160px;
+    line-height: 1.5;
+}
+
+.downloadtext h2 {
+    font-size: 50px;
+}
+
+.downloadtext h6 {
+    font-weight: 100;
+}
+
+.everywhere {
+    padding: 50px 10%;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.everywhereimg {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+
+.everywhereimg img {
+    display: block;
+    width: 120%;
+    margin: auto;
+}
+
+.everywheretext {
+    flex-basis: 50%;
+    margin-bottom: 160px;
+    line-height: 1.5;
+}
+
+.everywheretext h6 {
+    font-weight: 100;
+}
+
+.everywheretext h2 {
+    font-size: 50px;
+}
+
+.kids {
+    padding: 50px 10%;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.kidsimg {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+
+.kidsimg img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.kidstext {
+    flex-basis: 50%;
+    margin-bottom: 160px;
+    line-height: 1.5;
+}
+
+.kidstext h2 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.kidstext h6 {
+    font-weight: 100;
+}
+
+.faq {
+    padding: 10px 10%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.accordion {
+    border: none;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.accordion li {
+    padding: 5px;
+    list-style: none;
+    width: 100%;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after {
+    content: '+';
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.faq small {
+    font-size: 20px;
+}
+
+.faqinput {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqbtn {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.double {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailfaq {
+    border-color: #fff;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    background: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.8));
+    opacity: 80%;
+    color: #fff;
+    padding: 20px;
+}
+
+#btnfaq {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    background: rgba(229, 9, 20, 1);
+    color: white;
+    font-size: 1em;
+}
+
+#btn:hover {
+    background: linear-gradient(0deg,
+            rgba(212, 0, 0, 0.728),
+            rgb(129, 8, 8))
+}
+
+hr {
+    height: 10px;
+    background: #303030;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 375px;
+    background-color: black;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.footerlink {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: transparent;
+}
+
+.footer .ques {
+    color: #999;
+    ;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 17px;
+    min-height: 30px;
+
+}
+
+.footer .ques h5 {
+    align-self: flex-start;
+}
+
+.list1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    align-self: center;
+    justify-content: center;
+    min-height: 50px;
+    font-size: 13px;
+    padding: 0px 70px;
+    text-align: left;
+}
+
+.list1 li {
+    font-size: 13px;
+    margin: 7px -10px;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.list1 li a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a {
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+}
+
+
